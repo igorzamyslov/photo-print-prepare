@@ -6,7 +6,7 @@ from typing import Optional, Type, TypeVar
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
-from midjourney import logger
+from photo_handler import logger
 
 CLS = TypeVar("CLS")
 
